@@ -27,7 +27,7 @@ Load to /user/user via Hue. Then submit with:
 ```
 curl -X POST https://data-engine-observe-gateway.observe.xfaz-gdb4.cloudera.site/data-engine-observe/cdp-proxy-api/livy_for_spark3/batches \
  -H "Content-Type: application/json" \
- -u pauldefusco:Paolino1987!! \
+ -u pauldefusco:pwd!! \
  -d '{
   "file": "/user/pauldefusco/simple-spark-sql-query.py",
   "name": "SimpleSparkSQLApp",
