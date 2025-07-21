@@ -46,7 +46,7 @@ import string
 # Launch Spark Session with Iceberg dependencies
 spark = SparkSession\
             .builder\
-            .appName("PythonSQL")\
+            .appName("IcebergPartitionEvolution_DH_Example")\
             .config("spark.sql.extensions","org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions") \
             .config("spark.sql.catalog.spark_catalog","org.apache.iceberg.spark.SparkSessionCatalog") \
             .config("spark.sql.catalog.local","org.apache.iceberg.spark.SparkCatalog") \
